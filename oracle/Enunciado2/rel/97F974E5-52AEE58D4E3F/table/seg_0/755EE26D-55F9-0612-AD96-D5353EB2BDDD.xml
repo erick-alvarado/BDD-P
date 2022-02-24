@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="755EE26D-55F9-0612-AD96-D5353EB2BDDD" name="Producto">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>F5029832-5E3A-30D5-FEC5-D8C0E28EEBE4</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="BC8BEDD9-AF27-7525-3C6D-20EE7D9E8845">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>1F8D3F7A-307B-4388-1B43-48C394D1B079</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5BFAFF41-1BE3-F908-E11F-6D8395FABE0B">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>F19C8A1B-F27C-C97A-B591-9A6A949E4A86</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="5594BAE3-8375-5EA3-E215-D4D17E3D4AC5">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>63397598-7B5D-B41D-2168-603F8CD7CD21</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="7E04B1C7-9D51-56EE-F9F1-D392BEE4F534">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:45:00 UTC</createdTime>
+<generatorID>6C03D672-1D2A-EC3B-B755-A840CA2D5142</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_id_categoria" id="EAA79966-9A64-7337-1B72-152F8FEB4D78">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:45:00 UTC</createdTime>
+<generatorID>A8DDCB74-B885-D59D-3C14-644220C1623F</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36D55B10-5FEF-DA48-C5C6-003F3A9B2B7A" referredColumn="98C1531A-A854-CD61-A3A3-8C2F54D08E01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20E888FA-54FD-7FED-5D4B-AA170DAB2217" name="Producto_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>0EA6BFDE-2B83-9C6B-6E41-41E5432FEC47</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC8BEDD9-AF27-7525-3C6D-20EE7D9E8845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16DF00B1-7728-ACA5-7B84-18AAC87C0ECF" name="Producto_Categoria_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:45:00 UTC</createdTime>
+<generatorID>D8F00151-F000-2B86-3735-0CD689B33E6D</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAA79966-9A64-7337-1B72-152F8FEB4D78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

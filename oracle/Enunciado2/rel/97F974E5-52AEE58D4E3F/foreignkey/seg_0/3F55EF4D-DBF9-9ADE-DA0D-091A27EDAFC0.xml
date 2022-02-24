@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F55EF4D-DBF9-9ADE-DA0D-091A27EDAFC0" containerWithKeyObject="54EB2581-E8CC-05A9-75C9-35E31383BC0F" localFKIndex="4647CE5E-6E50-1B2F-B436-2E19562A6AEE" name="Cliente_Direccion_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>9DC5E8D2-251D-9296-B06A-05397F6AD78A</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<referredTableLongName>Direccion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA705302-732D-A8E9-3A3E-B85514F3967E</referredTableID>
+<keyObject>E3E5E0BC-47E1-0AB4-1313-DB0A16B1D6F0</keyObject>
+<referredKeyID>E3E5E0BC-47E1-0AB4-1313-DB0A16B1D6F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_direccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

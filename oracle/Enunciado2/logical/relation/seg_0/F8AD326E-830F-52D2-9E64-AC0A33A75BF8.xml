@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="F8AD326E-830F-52D2-9E64-AC0A33A75BF8">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:28:32 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<sourcePk>8BC5A281-B67D-063E-4E2C-7D7D60C58E40</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93C3A190-17E1-25E3-9A2D-C7E74AEF9813</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1450ACAE-EDBA-0CF8-9075-2E61A5035E01</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

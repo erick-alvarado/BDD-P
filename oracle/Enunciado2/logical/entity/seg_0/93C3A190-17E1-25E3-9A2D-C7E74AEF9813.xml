@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93C3A190-17E1-25E3-9A2D-C7E74AEF9813" name="Cliente">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="99F84087-1BBC-DD5A-BF9C-A3403FAF9795">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="E3E48EA8-AD12-666F-619C-70F6E69B5635">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2B0A587A-685C-E6B7-3667-171A1F5E69B3">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="CDD607A6-CE3A-98F3-C680-2D59D3142360">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_web" id="F324E025-1D4A-89CE-13BC-412770C3C17D">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion" id="966703EB-7FCD-306E-F67C-478F92E7EA9D">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:22:14 UTC</createdTime>
+<generatorID>9DC5E8D2-251D-9296-B06A-05397F6AD78A</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<referedAttribute>3B648952-F391-4800-31C6-DDE38784708F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BC5A281-B67D-063E-4E2C-7D7D60C58E40" name="Proveedor PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:20:50 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99F84087-1BBC-DD5A-BF9C-A3403FAF9795</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

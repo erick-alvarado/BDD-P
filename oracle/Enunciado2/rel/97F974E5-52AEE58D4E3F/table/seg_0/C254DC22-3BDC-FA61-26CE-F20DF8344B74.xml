@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C254DC22-3BDC-FA61-26CE-F20DF8344B74" name="Venta">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>9A7BD3F7-2FAD-0A49-D893-1D2699C83BC0</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venta" id="7CF1FA44-0941-98BB-739B-C830C9EB7687">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>BD4EB0FE-01EC-262A-BF73-4A608C4270A6</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="E6C519FF-7A98-B21C-A81E-EFBDF639CE1F">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>F41C6AFE-CF35-A868-8F14-DB88CD058C7D</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="F25665DF-F899-0D82-2F2B-FC5B695F4952">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>B50E8743-8FEE-8CB8-4D91-7821E5FA99CD</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="8F4D462F-2643-8669-12C2-6797329DF163">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>0005D730-FA93-9C98-0907-C8CBE984CCFE</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Factura_id_factura" id="CB968281-8791-B330-6019-C3A984CE1F94">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>FB63947C-67C6-0A94-7939-2A4438F65220</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DA61CC1-9D90-F25D-DAB9-CF8B6A90B548" referredColumn="F0A05BA6-081F-F149-3A20-EB5AA84BEC68"/>
+</associations>
+</Column>
+<Column name="Producto_id_producto" id="C0D6A7E0-971F-B749-DFF1-08B20488B532">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>A109E5F6-9E3E-2F18-88C7-C5FE9C39AD3C</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EEDFAE5-D73E-ED26-E955-3497C33D9F4A" referredColumn="BC8BEDD9-AF27-7525-3C6D-20EE7D9E8845"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D8EFA78-5F52-1590-70CE-87B20FD1F25C" name="Venta_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>D9513EBD-8C92-16C1-517A-22BD78FF6F2C</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF1FA44-0941-98BB-739B-C830C9EB7687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE9AE548-2FD3-BD28-F37C-617F7ACC3BFF" name="Venta_Factura_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>07D017D5-1FC4-4A55-D54A-96B0DA585599</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB968281-8791-B330-6019-C3A984CE1F94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB8EF4C2-8AD1-9750-5536-6C9EBCC3180C" name="Venta_Producto_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>E50AB3B8-3923-59A6-DBCA-CD745E999336</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D6A7E0-971F-B749-DFF1-08B20488B532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

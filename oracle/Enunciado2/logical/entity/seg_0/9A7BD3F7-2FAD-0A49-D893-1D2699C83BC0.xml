@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A7BD3F7-2FAD-0A49-D893-1D2699C83BC0" name="Venta">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:31:28 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_venta" id="BD4EB0FE-01EC-262A-BF73-4A608C4270A6">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:31:38 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="F41C6AFE-CF35-A868-8F14-DB88CD058C7D">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:31:52 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="B50E8743-8FEE-8CB8-4D91-7821E5FA99CD">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:32:15 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="0005D730-FA93-9C98-0907-C8CBE984CCFE">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:32:37 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura" id="FB63947C-67C6-0A94-7939-2A4438F65220">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:33:24 UTC</createdTime>
+<generatorID>07D017D5-1FC4-4A55-D54A-96B0DA585599</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<referedAttribute>F7C6FF11-9043-2721-169E-2892694644C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="A109E5F6-9E3E-2F18-88C7-C5FE9C39AD3C">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:34:52 UTC</createdTime>
+<generatorID>E50AB3B8-3923-59A6-DBCA-CD745E999336</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<referedAttribute>1F8D3F7A-307B-4388-1B43-48C394D1B079</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9513EBD-8C92-16C1-517A-22BD78FF6F2C" name="Venta PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:31:48 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD4EB0FE-01EC-262A-BF73-4A608C4270A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

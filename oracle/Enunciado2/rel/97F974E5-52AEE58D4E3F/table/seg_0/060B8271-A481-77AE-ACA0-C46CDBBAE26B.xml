@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="060B8271-A481-77AE-ACA0-C46CDBBAE26B" name="Contacto">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>EF20823B-DD78-CF09-D6D3-413C96AA7A18</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contacto" id="5455FFF1-F05F-8C5F-7C90-4705C83A2950">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>C7FA01C4-A138-76F2-2D2B-FB129712232E</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="696CD9C1-3F1D-F783-EF38-CB90C7B67071">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>B990C6D5-5125-B39F-77C7-4A0F9D5CD442</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="CA2DE09C-7737-513F-1197-18B737B28838">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>6E89BC0F-1615-AB90-949C-EAF0A0BC9026</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FFFFEB3-9955-E810-BF54-CADF16DDA1F2" referredColumn="C5AE958B-CA27-2077-440D-2814AE714BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F839C1B-1A02-12DD-CE58-27D3BD7AC127" name="Contacto_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>E518F150-347C-88CD-437A-E188DF7A2EB9</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5455FFF1-F05F-8C5F-7C90-4705C83A2950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE38F16D-1FE8-8FD5-16C5-E919DA29EAF3" name="Contacto_Cliente_FK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:36:34 UTC</createdTime>
+<generatorID>D89D575C-7B40-C005-5978-EC78201037D3</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2DE09C-7737-513F-1197-18B737B28838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

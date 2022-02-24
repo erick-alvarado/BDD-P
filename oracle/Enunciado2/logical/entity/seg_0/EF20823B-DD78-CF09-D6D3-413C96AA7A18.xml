@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF20823B-DD78-CF09-D6D3-413C96AA7A18" name="Contacto">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:22:29 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contacto" id="C7FA01C4-A138-76F2-2D2B-FB129712232E">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:22:40 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="B990C6D5-5125-B39F-77C7-4A0F9D5CD442">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:22:54 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="6E89BC0F-1615-AB90-949C-EAF0A0BC9026">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:23:19 UTC</createdTime>
+<generatorID>D89D575C-7B40-C005-5978-EC78201037D3</generatorID>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="true"/>
+</engineerTo>
+<referedAttribute>99F84087-1BBC-DD5A-BF9C-A3403FAF9795</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E518F150-347C-88CD-437A-E188DF7A2EB9" name="Contacto PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-02-24 17:35:01 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="97F974E5-B59C-0AC0-3996-52AEE58D4E3F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7FA01C4-A138-76F2-2D2B-FB129712232E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
