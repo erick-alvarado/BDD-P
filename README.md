@@ -1,5 +1,13 @@
 # Practica #2
 ## Enunciado 1
+* Esquema conceptual
+  
+    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E1-Logico.png)
+
+* Esquema Logico
+  
+    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E1-Relacional.png)
+    
 ## Enunciado 2
 * Esquema conceptual
   
@@ -19,6 +27,12 @@
     ![](Imagenes/E3-Relacional.png)
 
 ## Enunciado 4
+* Esquema conceptual
+  
+    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E4-Logico.png)
 
+* Esquema Logico
+  
+    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E4-Relacional.png)
  
  
