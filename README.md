@@ -2,11 +2,11 @@
 ## Enunciado 1
 * Esquema conceptual
   
-    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E1-Logico.png)
+    ![](Imagenes/E1-Logico.png)
 
 * Esquema Logico
   
-    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E1-Relacional.png)
+    ![](Imagenes/E1-Relacional.png)
     
 ## Enunciado 2
 * Esquema conceptual
@@ -29,10 +29,10 @@
 ## Enunciado 4
 * Esquema conceptual
   
-    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E4-Logico.png)
+    ![](Imagenes/E4-Logico.png)
 
 * Esquema Logico
   
-    ![](https://github.com/erick-alvarado/BDD-P/blob/main/Imagenes/E4-Relacional.png)
+    ![](Imagenes/E4-Relacional.png)
  
  

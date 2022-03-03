@@ -21,7 +21,6 @@ CREATE TABLE cliente (
     id_cliente             INTEGER NOT NULL,
     rut                    INTEGER,
     nombre                 VARCHAR2(30 CHAR),
-    direccion              VARCHAR2(50),
     url_web                VARCHAR2(80 CHAR),
     direccion_id_direccion INTEGER NOT NULL
 );
